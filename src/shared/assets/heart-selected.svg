@@ -1,5 +1,3 @@
-export const HeartSelected = () => {
-    return (
         <svg
             width="40"
             height="37"
@@ -12,5 +10,3 @@ export const HeartSelected = () => {
                 fill="#F24E1E"
             />
         </svg>
-    );
-};
