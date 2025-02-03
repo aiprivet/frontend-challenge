@@ -1,5 +1,6 @@
-import HeartSelected from "@/shared/assets/heart-selected.svg?react";
-import HeartUnselected from "@/shared/assets/heart-unselected.svg?react";
+import HeartSelected from "../../../../shared/assets/heart-selected.svg?react"
+import HeartUnselected from "../../../../shared/assets/heart-unselected.svg?react"
+
 import { useCallback, useState } from "react";
 import styles from "./Cat.module.css";
 

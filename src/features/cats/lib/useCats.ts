@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
-import { useIntersectionObserver } from "@/shared/lib/useIntersectionObserver";
 import { getCats } from "../api/catsApi";
+import { useIntersectionObserver } from "../../../shared/lib/useIntersectionObserver";
 
 export const useCats = () => {
     const [cats, setCats] = useState<Array<string>>([]);

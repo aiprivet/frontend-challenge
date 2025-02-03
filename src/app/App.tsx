@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { CatsList } from "@/features/cats";
-import { Navbar } from "@/shared/ui/Navbar/Navbar";
+import { Navbar } from "../shared/ui/Navbar/Navbar";
+import { CatsList } from "../features/cats/ui/CatsList/CatsList";
 
 function App() {
     const [activeNav, setActiveNav] = useState<"all" | "favorite">("all");

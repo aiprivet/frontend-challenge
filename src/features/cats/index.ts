@@ -1,1 +1,1 @@
-export { CatsList } from "@/features/cats/ui/CatsList/CatsList";
+export { CatsList } from "../cats/ui/CatsList/CatsList"
